@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
 
   use {
     'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate',
+    branch = 'master',
   }
 
   -- Plenary again (utility functions used by many plugins).
@@ -78,4 +78,3 @@ return require('packer').startup(function(use)
   }
 }
 end)
-
