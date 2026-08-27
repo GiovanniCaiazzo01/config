@@ -1,4 +1,6 @@
-local ascii_art = [[
+local M = {}
+
+local art = [[
 ⠀⠀⠀⠀(\__/)⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀(•ㅅ•)⠀⠀My NAAAAAME is
 ＿ノ⠀ヽ⠀ノ⠀＼＿⠀⠀Gyoubu Masataka
@@ -7,7 +9,11 @@ local ascii_art = [[
 |⠀️⠀️⠀️ﾉ⠀¯¯\⠀￣￣ヽノAs I breathe,
 ヽ＿＿＿⠀⠀＞､＿_／ you will NOT pass
 ⠀⠀⠀｜⠀(⠀王⠀)〈 the castle gate
-⠀⠀⠀/⠀⠀ﾐ`——彡⠀\ 
+⠀⠀⠀/⠀⠀ﾐ`——彡⠀\
 ]]
 
-print(ascii_art)
+function M.show()
+  print(art)
+end
+
+return M
