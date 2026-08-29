@@ -17,6 +17,7 @@ return {
     "cssls",
     "jsonls",
     "emmet_ls",
+    "roslyn_ls"
   },
   configs = {
     ts_ls = {
