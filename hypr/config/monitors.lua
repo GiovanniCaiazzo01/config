@@ -11,5 +11,5 @@ hl.monitor({
     output    = MONITOR1,
     mode      = "highres@highrr",
     position  = "auto",
-    scale     = "auto",
+    scale     = "1",
 })
