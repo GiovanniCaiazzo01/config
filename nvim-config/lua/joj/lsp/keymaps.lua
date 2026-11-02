@@ -35,7 +35,7 @@ function M.setup()
       end, "Format")
 
       if client and client:supports_method("textDocument/inlayHint") then
-        pcall(vim.lsp.inlay_hint.enable, true, { bufnr = event.buf })
+        pcall(vim.lsp.inlay_hint.enable, false, { bufnr = event.buf })
       end
     end,
   })

@@ -20,7 +20,7 @@ return {
           local git_root = vim.fs.root(vim.uv.cwd(), ".git")
 
           if git_root then
-            builtin.git_files({ cwd = git_root, show_untracked = true })
+            builtin.git_files({ cwd = git_root, show_untracked = false })
           else
             builtin.find_files()
           end

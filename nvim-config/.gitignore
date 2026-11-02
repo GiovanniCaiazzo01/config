@@ -1,6 +1,9 @@
  # Ignore compiled packer plugin file
 packer_compiled.lua
 
+# Ignore specified files
+howitworks.md
+
 # Ignore treesitter generated parsers directory (binary data)
 parser/
 
